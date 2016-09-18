@@ -12,6 +12,8 @@
 		ED5FDD1E1D8EC25F00968E54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5FDD1C1D8EC25F00968E54 /* Main.storyboard */; };
 		ED5FDD201D8EC25F00968E54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5FDD1F1D8EC25F00968E54 /* Assets.xcassets */; };
 		ED5FDD231D8EC25F00968E54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5FDD211D8EC25F00968E54 /* LaunchScreen.storyboard */; };
+		ED5FDD2B1D8EC29D00968E54 /* NinJaContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5FDD2A1D8EC29D00968E54 /* NinJaContainerView.swift */; };
+		ED5FDD2D1D8EC39400968E54 /* ninjia.png in Resources */ = {isa = PBXBuildFile; fileRef = ED5FDD2C1D8EC39400968E54 /* ninjia.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ED5FDD1F1D8EC25F00968E54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED5FDD221D8EC25F00968E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED5FDD241D8EC25F00968E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5FDD2A1D8EC29D00968E54 /* NinJaContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinJaContainerView.swift; sourceTree = "<group>"; };
+		ED5FDD2C1D8EC39400968E54 /* ninjia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninjia.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		ED5FDD171D8EC25F00968E54 /* ProperAnimation10Study */ = {
 			isa = PBXGroup;
 			children = (
+				ED5FDD2C1D8EC39400968E54 /* ninjia.png */,
+				ED5FDD2A1D8EC29D00968E54 /* NinJaContainerView.swift */,
 				ED5FDD181D8EC25F00968E54 /* AppDelegate.swift */,
 				ED5FDD1A1D8EC25F00968E54 /* ViewController.swift */,
 				ED5FDD1C1D8EC25F00968E54 /* Main.storyboard */,
@@ -125,6 +131,7 @@
 			files = (
 				ED5FDD231D8EC25F00968E54 /* LaunchScreen.storyboard in Resources */,
 				ED5FDD201D8EC25F00968E54 /* Assets.xcassets in Resources */,
+				ED5FDD2D1D8EC39400968E54 /* ninjia.png in Resources */,
 				ED5FDD1E1D8EC25F00968E54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			files = (
 				ED5FDD1B1D8EC25F00968E54 /* ViewController.swift in Sources */,
 				ED5FDD191D8EC25F00968E54 /* AppDelegate.swift in Sources */,
+				ED5FDD2B1D8EC29D00968E54 /* NinJaContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
